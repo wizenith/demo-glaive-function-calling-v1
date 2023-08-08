@@ -1,0 +1,4 @@
+potassium
+transformers
+einops
+sentencepiece
