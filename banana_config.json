@@ -40,5 +40,5 @@
             "description": "The generated text.",
             "path": "outputs"
         }
-    },
+    }
 }
