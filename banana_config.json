@@ -33,5 +33,12 @@
             "type": "number",
             "default": 100
         }
-    ]
+    ],
+    "output": {
+        "result": {
+            "type": "string",
+            "description": "The generated text.",
+            "path": "outputs"
+        }
+    },
 }
