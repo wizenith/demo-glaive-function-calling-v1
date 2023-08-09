@@ -22,6 +22,12 @@
             "default": 0.5
         },
         {
+            "name": "top_p",
+            "description": "The top_p to use.",
+            "type": "number",
+            "default": 0.95
+        },
+        {
             "name": "max_new_tokens",
             "description": "Generate at most this many new tokens in the response.",
             "type": "number",

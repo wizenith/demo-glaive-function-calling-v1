@@ -26,6 +26,7 @@ def handler(context: dict, request: Request) -> Response:
     system_prompt = request.json.get("system", "You are an helpful assistant")
     temperature = request.json.get("temperature", 0.5)
     max_new_tokens = request.json.get("max_new_tokens", 100)
+    top_p = request.json.get("top_p", 0.95)
     
     prompt = f"SYSTEM: {system_prompt} \nUSER: {user_prompt}\n ASSISTANT:"
     
@@ -34,6 +35,7 @@ def handler(context: dict, request: Request) -> Response:
         **inputs,
         do_sample=True,
         temperature=temperature,
+        top_p=top_p,
         max_new_tokens=max_new_tokens
     )
     
