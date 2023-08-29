@@ -1,4 +1,4 @@
-# My Potassium App
+# My Potassium App - lab
 This is a Potassium HTTP server, created with `banana init` CLI
 
 ### Testing
